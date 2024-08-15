@@ -12,13 +12,32 @@
     }
     .container{
         width: 100%;
-        height: auto;
+        height: 100%;
         background: linear-gradient( to bottom,rgb(210, 243, 250),rgb(96, 196, 233),rgb(55, 73, 234));
         text-align: center;
         padding: 100px 0;
+        
     }
     img{
         width: 60%;
+        box-shadow: 3px 3px 1px 3px rgba(94, 94, 95, 0.473);
+        
+    }
+
+    @media (max-width:990px){
+        .container{
+            height: 100vh;
+        }
+    }
+    @media (min-width:1340px) and (max-width:1440px){
+        .container{
+            height: 120vh;
+        }
+    }
+    @media (min-width:1000px) and (max-width:1290px){
+        .container{
+            height: 140vh;
+        }
     }
 </style>
 <body>
